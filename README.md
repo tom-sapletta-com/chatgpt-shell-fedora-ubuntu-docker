@@ -5,10 +5,16 @@ prepare on ubuntu server 22.04 LTS
 
 
 Prepare python environment
+
+ubuntu,debian
 ```
 sudo apt install -y python3-pip
 ```
 
+fedora, centos
+```
+sudo dnf install -y python3-pip
+```
 
 installation
 
