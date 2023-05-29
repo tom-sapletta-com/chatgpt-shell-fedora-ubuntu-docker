@@ -1,10 +1,13 @@
 # chatgpt-shell-ubuntu-docker
 ChatGPT wrapper on shell ubuntu with docker
 
-prepare on ubuntu server 22.04 LTS
+
+## Install, config & start:
+
+### 1. Prepare on ubuntu server 22.04 LTS
 
 
-## Prepare python environment
+### 2. Prepare python environment
 
 ubuntu,debian
 ```
@@ -18,13 +21,13 @@ sudo dnf install -y python3-pip
 sudo dnf install -y git
 ```
 
-##  installation
+### 3.installation
 
 ```bash
 pip install git+https://github.com/mmabrouk/chatgpt-wrapper
 ```
 
-Instalation for development
+#### Instalation for development
  
 ```shell
 git clone https://github.com/mmabrouk/chatgpt-wrapper.git
@@ -36,6 +39,7 @@ cd chatgpt-wrapper
 pip install -e .
 ```
 
+#### any errors?
 
 if is not working with an ERROR: "externally managed environment"
 
@@ -50,7 +54,8 @@ sudo apt install pipx
 ```
 
 
-## Setup Config 
+
+### 4. Setup Config 
 
 + [API keys - OpenAI API](https://platform.openai.com/account/api-keys)
 
@@ -66,7 +71,7 @@ chatgpt config
 ```
 
 
-## Start
+### 5.  Start
 
 ```
 chatgpt
