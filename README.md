@@ -9,11 +9,13 @@ prepare on ubuntu server 22.04 LTS
 ubuntu,debian
 ```
 sudo apt install -y python3-pip
+sudo apt install -y git
 ```
 
 fedora, centos
 ```
 sudo dnf install -y python3-pip
+sudo dnf install -y git
 ```
 
 ##  installation
