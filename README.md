@@ -4,7 +4,7 @@ ChatGPT wrapper on shell ubuntu with docker
 prepare on ubuntu server 22.04 LTS
 
 
-Prepare python environment
+## Prepare python environment
 
 ubuntu,debian
 ```
@@ -16,13 +16,11 @@ fedora, centos
 sudo dnf install -y python3-pip
 ```
 
-installation
+##  installation
 
 ```bash
 pip install git+https://github.com/mmabrouk/chatgpt-wrapper
 ```
-
-
 
 Instalation for development
  
@@ -35,7 +33,6 @@ Install the development package:
 cd chatgpt-wrapper
 pip install -e .
 ```
-
 
 
 if is not working with an ERROR: "externally managed environment"
