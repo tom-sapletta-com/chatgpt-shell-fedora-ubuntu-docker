@@ -1,5 +1,4 @@
-# chatgpt-shell-ubuntu-docker
-ChatGPT wrapper on shell ubuntu with docker
+# ChatGPT wrapper on shell fedora/ubuntu with docker
 
 
 ## Install, config & start:
